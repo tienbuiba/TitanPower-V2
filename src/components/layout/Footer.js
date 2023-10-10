@@ -41,11 +41,7 @@ export default function Footer() {
           <Grid item xs={12} sm={6} md={3}>
             <Button href="/" sx={{ mb: 1, width: '30%' }}>
               <img src={Logo} alt="Apollo" width="100%" height="80px"
-                style={{
-                  opacity: '1',
-                  transition: 'opacity .4s',
-                  display: 'block'
-                }} />
+              />
             </Button>
             <Typography sx={{ color: '#858585', textDecoration: 'none', fontSize: '14px', mb: 1 }}>Titan Power Co.,Ltd</Typography>
             <div sx={{ marginTop: '16px' }}>
