@@ -121,12 +121,7 @@ function AppAppBar() {
       variant="dense">
       <Box sx={{ flex: 0, display: { lg: 'flex', md: 'none', xs: 'none', justifyContent: 'flex-start' } }} />
       <Button size="small" href="/" sx={{}}>
-        <img src={Logo} alt="Apollo" width="100%" height="55px" 
-          style={{
-            opacity: '1',
-            transition: 'opacity .4s',
-            display: 'block'
-          }} />
+        <img src={Logo} alt="Apollo" width="100%" height="55px" />
       </Button>
       <Box sx={{ flex: 1, display: { lg: 'flex', md: 'none', xs: 'none' }, justifyContent: 'flex-end' }}>
         {sections.map((section) => (
