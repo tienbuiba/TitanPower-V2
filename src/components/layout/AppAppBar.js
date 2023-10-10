@@ -120,11 +120,11 @@ function AppAppBar() {
       component="nav"
       variant="dense">
       <Box sx={{ flex: 0, display: { lg: 'flex', md: 'none', xs: 'none', justifyContent: 'flex-start' } }} />
-      <Button size="small" href="/" sx={{}}>
-        <img src={Logo} alt="Apollo" width="100%" height="55px" 
+      <Button size="small" href="/" sx={{ width: '50px', height: '55px' }}>
+        <img src={Logo} alt="Apollo" width="100%" height="55px"
           style={{
             opacity: '1',
-            width:'100%', 
+            width: '100%',
             height: '55px',
             transition: 'opacity .4s',
             display: 'block'
